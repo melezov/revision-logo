@@ -7,16 +7,16 @@ import java.awt.geom.{Ellipse2D, Line2D}
 import java.awt.image.BufferedImage
 
 object LogoImage {
-  val Radii = Seq(
+  val Radii: Seq[Int] = Seq(
     88, 182, 322, 277, 393, 474, 559, 700, 802, 916, 971, 995
   )
 
-  val Thetas = Seq(
+  val Thetas: Seq[Int] = Seq(
      46,  71,  93, 125, 191, 197, 257, 272, 274, 347, 351, 373, 437, 460, 511,
     518, 552, 622, 663, 682, 748, 765, 800, 830, 833, 869, 916, 952, 994, 999,
   )
 
-  val Snakes = Seq[Array[Byte]](
+  val Snakes: Seq[Array[Byte]] = Seq(
     Array(0, 0),
     Array(1, 8, 2, 12, 1, 12),
     Array(4, 1, 3, 4, 4, 6, 5, 13, 4, 14, 3, 16, 4, 17, 5, 18, 4, 21, 3, 25, 4, 26, 5, 27, 4, 27),
